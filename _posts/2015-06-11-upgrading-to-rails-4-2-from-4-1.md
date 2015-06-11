@@ -10,7 +10,7 @@ type: post
 published: true
 meta:
   _edit_last: '1'
-author:
+wp_author:
   login: mmhan
   email: mmhan2u@gmail.com
   display_name: Mike Han
