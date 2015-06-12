@@ -32,5 +32,5 @@ Another paragraph
 3.  Parish
 2.  McHale
 
-![Abs comparison]({{ site.url }}/assets/abs.jpg)
+![Abs comparison]({{ site.url }}{{ site.baseurl }}/assets/abs.jpg)
 
