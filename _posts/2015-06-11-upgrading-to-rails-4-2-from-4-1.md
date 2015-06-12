@@ -16,8 +16,7 @@ wp_author:
   display_name: Mike Han
   first_name: Mike
   last_name: Han
-excerpt: !ruby/object:Hpricot::Doc
-  options: {}
+
 ---
 ![Upgrading to Rails 4.2 from 4.1]({{ site.url }}/assets/rails4.2.png)
 
