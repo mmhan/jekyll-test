@@ -37,7 +37,7 @@ end
 - Once the xml is in hand use
 
 
-```    
+```
 $ ruby -rubygems -e 'require "jekyll-import";
         JekyllImport::Importers::WordpressDotCom.run({
         "source" => "wordpress.xml",

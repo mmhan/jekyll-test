@@ -22,12 +22,15 @@ wp_author:
 
 In an effort to make use of the latest features of the rails platform in [MyanmarCarsDB](http://www.myanmarcarsdb.com), I was working on upgrading and making required changes on the codebase in last few weeks. It was triggered by the need for us to start utilising background jobs (enabled by Rails' first-class wrapper ActiveJob) and also many of the red-lines in [VersionEye](https://www.versioneye.com/) report. _(VersionEye is a notification system for software libraries dependencies giving you reports about outdated libraries of your project.)_ This blog post is to document some of the challenges and changes we had to make for your reference.
 
+<!--more-->
+
 I had started out by upgrading all gems in the red by upgrading them to their latest versions. Then, there was the upgrade of rails 4.2.
 
 As soon as the upgrade is completed, running rspec gave me the error about `validate` syntax. Apparently, a line that I had isn't working as I had intended.
 
-<pre class="prettyprint lang-rb">    validates :name, presence: true
-</pre>
+```ruby
+validates :name, presence: true
+```
 
 I had only discovered that when I had upgraded to rails 4.2 and it raised the `ArgumentError` with the message
 
