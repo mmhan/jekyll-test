@@ -44,12 +44,14 @@ I simply had discarded the existing file (while keeping a reference) and overwro
 
 With new Rails, there was also new version of capybara. It meant that I had to fix some of those cucumber steps that depended on `Capybara.ignore_hidden_elements` to be `false` which is no longer the default. I decided against changing it back to `true` (which could definitely come back to bite me in my ass) simply because, if capybara can't see something, it's almost definitely that my users can't see it too. Most of those problematic steps are concerning to the way selections are made when `select2` jQuery plugin was in use. Thankfully using a simple hack below is all I needed to fix the problem. It's a dirty hack, nonetheless it's just what I needed, for simple select2 drop-downs, rather than other solutions provided elsewhere.
 
-    #features/support/select2.rb
+```ruby
+#features/support/select2.rb
 
-    def select2(value, options)
-      page.execute_script("$('##{options[:from]}').removeClass('select2-offscreen').show()")
-      select value, options
-    end
+def select2(value, options)
+  page.execute_script("$('##{options[:from]}').removeClass('select2-offscreen').show()")
+  select value, options
+end
+```
 
 Now that ActiveJob is in play, mailer's `deliver` method is deprecated in favour of `deliver_now` and `deliver_later`. Though find and replace would have been simple matters, my use of table-less models (for contact message and etc.) would trigger `SerializationError`. It was found that `ActiveJob` required an object that could be identified using `GlobalID::Identification` which those models weren't. Thus, `deliver_now` for them.
 

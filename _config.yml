@@ -32,7 +32,7 @@ defaults:
       author: mmhan
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 #lsi: true
 
 kramdown:
