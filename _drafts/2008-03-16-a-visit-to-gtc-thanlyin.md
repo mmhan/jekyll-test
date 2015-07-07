@@ -10,9 +10,8 @@ tags:
 - MM
 - Myanmar
 - Thoughts
-status: publish
 type: post
-published: true
+published: false
 meta:
   _edit_last: '1'
   _aioseop_description: A little short essay of how my much anticipated visit back
