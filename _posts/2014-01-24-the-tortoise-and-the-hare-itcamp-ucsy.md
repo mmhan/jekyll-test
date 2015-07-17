@@ -3,7 +3,7 @@ layout: post
 title: The Tortoise and the Hare - ITCamp @ UCSY
 date: 2014-01-24 19:25:15.000000000 +06:30
 categories:
-- Thoughts
+- Talks
 tags:
 - EN
 status: publish
@@ -17,7 +17,7 @@ wp_author:
   display_name: Mike Han
   first_name: Mike
   last_name: Han
-
+excerpt: Beginner's guide to Version Control System
 ---
 I was giving a talk today regarding Version Control System at UCSY's (University of Computer Studies Yangon) ITCamp, a BarCamp style unconference organised by the student body. Git was used for showing demo.
 <!--more-->

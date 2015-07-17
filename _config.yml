@@ -32,6 +32,7 @@ defaults:
       path: ""
     values:
       author: mmhan
+      layout: post
 
 # Build settings
 markdown: redcarpet

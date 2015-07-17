@@ -16,7 +16,7 @@ wp_author:
   display_name: Mike Han
   first_name: Mike
   last_name: Han
-
+excerpt: Rebbiz team's effort to upgrade MyanmarCarsDB from Rails 4.1 to 4.2
 ---
 ![Upgrading to Rails 4.2 from 4.1]({{ site.url }}/assets/rails4.2.png)
 
