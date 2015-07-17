@@ -216,7 +216,12 @@
     }
 }
 
+.excerpt {
+    font-family: $accent-font-family;
+    color: #666;
+}
 .post-content {
+    font-family: $accent-font-family;
     margin-bottom: $spacing-unit;
 
     h2 {

@@ -8,22 +8,29 @@ layout: default
     {% for post in paginator.posts %}
       {% if post.external_url %}
       <li class="external">
-        <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <div class="post-meta">
+          <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+        </div>
         <h2>
           <a class="post-link" href="{{ post.external_url }}" target="_blank">
             {{ post.title }}
             <i class="fa fa-external-link"></i>
           </a>
         </h2>
-        {{ post.excerpt }}
+        <div class="excerpt">
+          {{ post.excerpt | markdownify }}
+        </div>
       {% else %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li class="{{ post.category | first }}">
+        <div class="post-meta">
+          <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+        </div>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt }}
-      </li>
+        <div class="excerpt">
+          {{ post.excerpt | markdownify }}
+        </div>
       {% endif %}
     {% endfor %}
   </ul>
