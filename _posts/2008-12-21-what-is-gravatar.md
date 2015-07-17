@@ -27,7 +27,7 @@ wp_author:
 
 ---
 
-![what-is-gravatar](assets/what-is-gravatar.gif "what-is-gravatar")
+![what-is-gravatar](/assets/what-is-gravatar.gif "what-is-gravatar")
 
 [Gravatar](http://en.gravatar.com) ဆိုတာ Globally Recognised Avatar ရဲ့ အတိုကောက်ပါ။
 
