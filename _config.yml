@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 email: contact@mmhan.net
 author: mmhan
 baseurl: ""	#path to site
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://mmhan.github.io" # the base hostname & protocol for your site
 twitter_username: mmhan
 github_username:  mmhan
 timezone: Asia/Rangoon
