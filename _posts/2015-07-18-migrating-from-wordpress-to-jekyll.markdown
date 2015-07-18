@@ -134,6 +134,6 @@ gem 'github-pages', versions['github-pages']
 
 ## What's next?
 
-အခုတော့ MyanmarCarsDB ရဲ့ သတင်းဆိုဒ်မှာ သုံးဖို့ API ကို ဘယ်လို liquid tag တွေနဲ့ generate လုပ်မလဲ ကြည့်နေတယ်။ အဲ့တော့... အကြောင်းထူးရင်၊ အလုပ်ဖြစ်ရင်ပြောပြမယ်။
+အခုတော့ [MyanmarCarsDB](http://www.myanmarcarsdb.com/?utm_source=migration-from-wordpress-to-jekyll&utm_medium=blog&utm_campaign=mmhan_blog) ရဲ့ သတင်းဆိုဒ်မှာ သုံးဖို့ API ကို ဘယ်လို liquid tag တွေနဲ့ generate လုပ်မလဲ ကြည့်နေတယ်။ အဲ့တော့... အကြောင်းထူးရင်၊ အလုပ်ဖြစ်ရင်ပြောပြမယ်။
 
 စမ်းြကည့်လိုက်ဦးနော်၊ tips တွေ tricks တွေရှိရင်လည်းပြောပြ၊ မသိရင်လည်းမေး။
