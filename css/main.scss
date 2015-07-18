@@ -7,14 +7,16 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$accent-font-family: Georgia, Times, serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$title-font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+$body-font-family: 'Roboto Slab', Georgia, Times, serif;
+$base-font-size:   20px;
+$big-font-size:  $base-font-size * 1.5;
+$small-font-size:  $base-font-size * 0.5;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #333;
+$text-color:       #666;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 

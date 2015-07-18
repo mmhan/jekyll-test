@@ -17,6 +17,9 @@
     margin-bottom: 0;
     float: left;
 
+    &:hover{
+        text-decoration: none;
+    }
     &,
     &:visited {
         color: $grey-color-dark;
@@ -189,12 +192,12 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-family: $title-font-family;
+    font-size: $big-font-size;
 }
 
 
@@ -207,6 +210,7 @@
 }
 
 .post-title {
+    font-family: $title-font-family;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -217,11 +221,11 @@
 }
 
 .excerpt {
-    font-family: $accent-font-family;
-    color: #666;
+    font-family: $body-font-family;
+    color: #83909e;
 }
 .post-content {
-    font-family: $accent-font-family;
+    font-family: $body-font-family;
     margin-bottom: $spacing-unit;
 
     h2 {
