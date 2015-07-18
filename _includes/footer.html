@@ -2,11 +2,18 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-         <ul class="social-media-list">
+        <h2 class="footer-heading">
+          <img src="/favicon-96x96.png" alt="{{ site.title }}" />
+        </h2>
+
+
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <p class="text">{{ site.description }}</p>
+        <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -32,10 +39,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <p class="text">{{ site.description }}</p>
       </div>
     </div>
 
