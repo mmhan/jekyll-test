@@ -177,9 +177,7 @@
         position:relative;
       }
     }
-  .fa{
-    font-size: 12px;
-  }
+
   .post-meta{
     @include only($on-laptop) {
       position: absolute;
@@ -195,9 +193,12 @@
 }
 
 .post-link {
-    display: block;
-    font-family: $title-font-family;
-    font-size: $big-font-size;
+  display: block;
+  font-family: $title-font-family;
+  font-size: $big-font-size;
+  .fa{
+    font-size: 12px;
+  }
 }
 
 
@@ -214,6 +215,10 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+
+    .fa{
+      font-size: 12px;
+    }
 
     @include media-query($on-laptop) {
         font-size: 36px;

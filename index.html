@@ -10,6 +10,7 @@ layout: default
       <li class="external">
         <div class="post-meta">
           <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+          <a href="{{post.url | prepend: site.baseurl }}"<i class="fa fa-link"></i></a>
         </div>
         <h2>
           <a class="post-link" href="{{ post.external_url }}" target="_blank">
