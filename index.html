@@ -8,10 +8,7 @@ layout: default
     {% for post in paginator.posts %}
       {% if post.external_url %}
       <li class="external">
-        <div class="post-meta">
-          <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-          <a href="{{post.url | prepend: site.baseurl }}"<i class="fa fa-link"></i></a>
-        </div>
+        {% include post_meta.html %}
         <h2>
           <a class="post-link" href="{{ post.external_url }}" target="_blank">
             {{ post.title }}
@@ -23,9 +20,7 @@ layout: default
         </div>
       {% else %}
       <li class="{{ post.category | first }}">
-        <div class="post-meta">
-          <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-        </div>
+        {% include post_meta.html %}
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
@@ -56,3 +51,16 @@ layout: default
   -->
 
 </div>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mmhan';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>

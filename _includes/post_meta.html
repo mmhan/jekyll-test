@@ -1,0 +1,8 @@
+<div class="post-meta">
+  <ul>
+  <li class="time">
+  	<a href="{{post.url | prepend: site.baseurl }}"><time>{{ post.date | date: "%b %-d, %Y" }}</time></a>
+  </li>
+  <li><a href="{{post.url | prepend: site.baseurl | prepend: site.url }}#disqus_thread"><i class="fa fa-comments-o"></i></a></li>
+  </ul>
+</div>

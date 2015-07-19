@@ -182,7 +182,6 @@
     @include only($on-laptop) {
       position: absolute;
       left: -120px;
-      line-height: 36px;
     }
   }
 }
@@ -190,6 +189,13 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    ul{
+        list-style: none;
+    }
+    li.time a{
+      text-decoration: none;
+      color: $grey-color;
+    }
 }
 
 .post-link {
@@ -235,6 +241,7 @@
 
     h2 {
         font-size: 32px;
+        margin-top: 64px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -243,6 +250,7 @@
 
     h3 {
         font-size: 26px;
+        margin-top: 52px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -251,6 +259,7 @@
 
     h4 {
         font-size: 20px;
+        margin-top: 40px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
