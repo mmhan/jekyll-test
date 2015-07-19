@@ -190,11 +190,16 @@
     font-size: $small-font-size;
     color: $grey-color;
     ul{
-        list-style: none;
+      list-style: none;
+      li{
+        display: inline-block;
+      }
+    }
+    a{
+      color: $grey-color-light;
     }
     li.time a{
       text-decoration: none;
-      color: $grey-color;
     }
 }
 
