@@ -26,6 +26,7 @@ layout: default
         </h2>
         <div class="excerpt">
           {{ post.excerpt | markdownify }}
+          <a href="{{ post.url | prepend: site.baseurl }}">Continue Reading &raquo;</a>
         </div>
       {% endif %}
     {% endfor %}
