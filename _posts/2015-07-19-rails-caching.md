@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speed Up Your Rails App by 66% - The Complete Guide to Rails Caching"
-category:
+categories:
 - Rails
 date: 2015-07-19T02:09:04+06:30
 external_url: http://www.nateberkopec.com/2015/07/15/the-complete-guide-to-rails-caching.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Review: Quiet"
-category:
+categories:
 - Books
 date: 2015-07-23T04:08:04+06:30
 ---

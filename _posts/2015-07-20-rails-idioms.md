@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rails Idioms"
-category: 
+categories:
 - Rails
 date: 2015-07-20T01:12:04+06:30
 external_url: https://robots.thoughtbot.com/code-review-ruby-and-rails-idioms

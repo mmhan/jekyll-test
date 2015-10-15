@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Front-end Developer Interview Questions"
-category:
+categories:
 - Open-Source
 date: 2015-07-26T16:00:00+06:30
 external_url: https://github.com/mmhan/Front-end-Developer-Interview-Questions/tree/translations/burmese/Translations/Burmese

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Myanmar Election APIs and Examples"
-category:
+categories:
 - Technology
 date: 2015-07-19T17:53:00+06:30
 external_url: https://github.com/MyanmarAPI
