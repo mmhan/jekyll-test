@@ -14,13 +14,11 @@ As an outside observer, it's easy pointing fingers at their demise and feel smug
 
 <!--more-->
 
-I have to admit, the problem in itself is no small feat. Who's making code reviews? How the hell are they doing it? Who resolves conflicts? Who gives the nod? Who pushes the code to release?
+I have to admit, the problem in itself is no small feat. Who's making code reviews? How the hell are they doing it? Who resolves conflicts? Who gives the nod? Who pushes the code to release? What happens when having too many heads crowd out the one voice that might just make it work? What happens when the technical leader's time for problem solving and devising solutions – the job that he had always been good at - is no longer enough because the natural progression of things sent him up the ladder to manage people?
 
 On the flip side of the coin, the problem would lie in maintaining a speed that's tolerable for the users that desire instant gratification and instant resolution of their problems when it comes to using apps/websites.
 
-What happens when you can't work on a solution, but stuck on resolution of bugs? What happens when having too many heads crowd out the one voice that might just make it work? What happens when the system doesn't scale well to hundreds of user stories in the backlog?
-
-What happens when the technical leader's time for problem solving and devising solutions – the job that he had always been good at - is no longer enough because the natural progression of things sent him up the ladder to manage people?
+What happens when you can't work on a solution, but stuck on resolution of bugs? What happens when the system doesn't scale well to hundreds of user stories in the backlog?
 
 I, for one, am very protective of my status quo. I'd like having to go to sleep peacefully at night without a worry that a bug had managed to sneak in, or the quality of the code had just contracted "[a broken window][window]" disease. Even with those rigorous testings and reviews we are starting to suffer the growing pain of becoming too huge to have a full mental grasp of the effects and side effects of each changes that was introduced. (For my brain is small and my mind is weak)
 
