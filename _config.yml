@@ -13,6 +13,7 @@ timezone: Asia/Rangoon
 excerpt_separator: <!--more-->
 paginate: 10
 paginate_path: "/index/:num/"
+gems: [jekyll-paginate]
 
 ## Octopress's additional configs
 subtitle: > # this means to ignore newlines until "baseurl:" # A description used in the header
