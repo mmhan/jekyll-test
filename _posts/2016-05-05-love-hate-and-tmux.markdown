@@ -3,7 +3,7 @@ layout: post
 title: "Love, Hate & Tmux"
 date: 2016-05-05T10:23:50+06:30
 category:
-  - development
+- development
 external_url: https://robots.thoughtbot.com/love-hate-tmux
 ---
 
