@@ -1,0 +1,33 @@
+---
+layout: post
+title: "mmhan 4.0"
+# date: 2016-06-11T10:00:00+06:30
+date: 2017-06-11T00:00:00+06:30
+categories:
+- Announcements
+
+---
+
+Many of you close to me might have noticed that I have been a little too high last few weeks. I feel that I have been pretty energetic, confident and effective. Ever since my college days, there were never a day that I would get out of bed on time to arrive to where I want to be/need to be.
+
+But these days I am waking up full of energy and ready tackle the challenges of the day head-on and leaves a trail blazing after me.
+
+It surprises me and worry me too that it might just be a phase. Just look at the fact I am trying to burn off that energy now by writing this because I woke up in the middle of the night with a burning desire to get something done and couldn't fall asleep.
+
+I was actually putting things into my daily log/TODO list at first to see if it will clear my head and makes me fall asleep. However, as soon as I got started I couldn't stop. It is as if I will have to put words to explain myself about the new me or else I would implode from the frustration of not being able to put a finger to it. (My hands are almost jittering as if I had too much coffee as I type this)
+
+So here it is – my release notes for mmhan 4.0 - my attempt at reinventing myself to fit myself for Chief Problem Solver title.
+
+
+<!--more-->
+
+![Infographic Image 1 of 3](/assets/mmhan-4-0/1.png)
+![Infographic Image 2 of 3](/assets/mmhan-4-0/2.png)
+![Infographic Image 3 of 3](/assets/mmhan-4-0/3.png)
+
+
+#### Case Study
+
+I finally made the decision to cut off all the notes I had written about this post. I realized it's getting overly lengthy after my musings on facebook about "To Sell is Human". I hacked around for a solution at 10pm last night. Then I arrived to a viable solution at 11pm at which point I was already one-hour due for my sleep. I hacked around with the solution til 1pm, at which point I could safely announce the date and time for this announcment to be published. The perfectionist me won't let me go to sleep until it's perfectly mysterious enough yet delivers the point. I'm gonna be gone to bed latest by 4:30am. During the time of the announcment, I'll be at the ball game with my friends, without a wink or a worry that, the announcment will go smoothly. And if it didn't. Life will go on.
+
+That's a wrap, folks!
